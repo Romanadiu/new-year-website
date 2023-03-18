@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+}
+header{
+    margin: 20px;
+    display: flex;
+    background-color: #F0F0F0;
+    
+}
+.image{
+    width: 50%;
+    margin-right: 40px;
+}
+
+header img{
+    width: 100%;
+    
+}
+.text{
+    width: 40%;
+}
+.text h1{
+    font-size: 65px;
+}
+.text p{
+    font-size: 16px;
+}
+.btn{
+    background-color: #F15B22;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    color:white
+    
+}
+.btn p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.text ul {
+    list-style: none;
+  }
+  
+  .text ul li:before {
+    
+    content: '✓';
+  }
+  .banner{
+    margin: 50px;
+    display: flex;
+    background-color: white;
+    
+}
+
+.plene{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.all-courses-container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.courses-container{
+    width: 200px;
+
+}
+
+.course-img{
+    text-align: center;
+    
+}
+.course-text{
+    text-align: center;
+}
+
+.mindset{
+    margin: auto;
+    width: 70%;
+    position: relative;
+    /* height: 100px; */
+    /* display: block; */
+    margin: 50px auto;
+   
+}
+.mindset-text{
+
+    position: absolute;
+    top: 43px;
+    left: 70px;
+    
+}
+.mindset-text h1{
+    color: white;
+
+}
+.mindset-text button{
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 8px;
+}
+
+.future-container{
+    margin: 20px;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.future{
+    padding: 100px;
+
+}
+.future h1{
+    color:white;
+}
+.future p{
+    color:white;
+}
+.subscribe{
+    padding: 100px;
+}
+.subscribe h2{
+    color: white;
+}
+.subscribe input{
+    font-size: 25px;
+    border-radius: 5px;
+}
+.subscribe button{
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.banner2{
+    position: relative;
+    margin: 0,auto;
+}
+.banner2 img{
+    width: 100%;
+    height: 700px;
+}
+.banner2-text{
+    position: absolute;
+    right: 354px;
+    top: 186px;
+}
+.banner2-text button{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: #F0F0F0;
+}
+
+
+
+.banner3{
+    margin: 20px;
+    position: relative;
+
+}
+.banner3 img{
+    width: 100%;
+    height: 700px;
+}
+.banner3-text{
+    position: absolute;
+    bottom: 228px;
+    right: 269px;
+    
+}
+.banner3-text h1{
+    font-size: 40px;
+    color: white;
+}
+.banner3-text p{
+    color: white;
+}
+.banner3-text button{
+    font-size: 25px;
+    border-radius: 5px;
+    color: blue;
+    padding: 10px;
+}
